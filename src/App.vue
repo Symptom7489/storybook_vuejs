@@ -1,20 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<the-header/>
+  <div class="flex flex-row">
+  <the-sidebar/>
+  <the-carousel/>
+  </div>
+  <the-footer/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import TheCarousel from '@/components/layout/TheCarousel';
+  import TheSidebar from "@/components/layout/TheSidebar";
+  import TheHeader from "@/components/layout/TheHeader";
+  import TheFooter from "@/components/layout/TheFooter";
 
 export default {
+
   name: 'App',
   components: {
-    HelloWorld
+    TheHeader,
+    TheSidebar,
+    TheCarousel,
+    TheFooter,
   }
 }
 </script>
 
 <style>
+body {
+  background-color: red;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
