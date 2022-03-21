@@ -8,7 +8,7 @@ const router = createRouter({
     routes: [
         {path: '/', redirect: '/books'},
         {path: '/books', component:  BookList },
-        {path: '/books/:index', component: TheCarousel},
+        {path: '/books/:id', component: TheCarousel},
         {path: '/register', component: null },
         {path: '/:notFound(.*)', component: NotFound }
     ],
