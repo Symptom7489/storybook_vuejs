@@ -1,11 +1,12 @@
 <template>
-  <the-header/>
-  <div class="flex flex-row">
-    <the-sidebar/>
-    <router-view></router-view>
-  </div>
-  <the-footer/>
-
+  <section>
+    <the-header/>
+    <div class="flex flex-row">
+      <the-sidebar/>
+      <router-view></router-view>
+    </div>
+    <the-footer/>
+  </section>
 </template>
 
 <script>
@@ -26,15 +27,11 @@ export default {
 
 <style>
 body {
-  background-color: red;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-size: cover;
+  background-image: linear-gradient(to right, #d90404, rgba(190, 59, 41, 0.99));
 }
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

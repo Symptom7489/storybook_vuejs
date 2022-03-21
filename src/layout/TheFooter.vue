@@ -1,5 +1,7 @@
 <template>
-Footer
+<section class="text-center">
+  Footer
+</section>
 </template>
 
 <script>
