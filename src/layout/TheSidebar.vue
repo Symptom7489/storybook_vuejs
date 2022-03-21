@@ -1,5 +1,5 @@
 <template>
-<div class="basis-2/12 border-4 border-blue-500">
+<div >
   <ul>
     <li class="m-8" v-for="test in testList" :key="test">
       <sidebar-button

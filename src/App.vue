@@ -1,18 +1,17 @@
 <template>
-<the-header/>
+  <the-header/>
   <div class="flex flex-row">
-  <the-sidebar/>
-  <the-carousel/>
+    <the-sidebar/>
+    <router-view></router-view>
   </div>
   <the-footer/>
 
 </template>
 
 <script>
-  import TheCarousel from '@/components/layout/TheCarousel';
-  import TheSidebar from "@/components/layout/TheSidebar";
-  import TheHeader from "@/components/layout/TheHeader";
-  import TheFooter from "@/components/layout/TheFooter";
+import TheSidebar from "@/layout/TheSidebar";
+import TheHeader from "@/layout/TheHeader";
+import TheFooter from "@/layout/TheFooter";
 
 export default {
 
@@ -20,7 +19,6 @@ export default {
   components: {
     TheHeader,
     TheSidebar,
-    TheCarousel,
     TheFooter,
   }
 }
@@ -30,6 +28,7 @@ export default {
 body {
   background-color: red;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
