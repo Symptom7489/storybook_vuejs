@@ -7,11 +7,13 @@ bg-purple-500 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded-full">
 
 <script>
 export default {
-  name: "SidebarButton",
-props: ['testList']
-};
+  name: "HeaderButton"
+}
 </script>
 
 <style scoped>
+.button {
+  border-radius: 5px;
 
+}
 </style>

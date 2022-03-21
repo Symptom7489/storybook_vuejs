@@ -9,14 +9,14 @@ export default {
             books: [
                 {
                     id: 'b1',
-                    title: 'My first book',
+                    title: 'My First Book',
                     author: 'Ryan Maddox',
                     numberOfPages: 6,
                     coverPage: 'https://edit.org/photos/img/blog/d3s-design-book-covers.jpg-840.jpg'
                 },
                 {
                     id: 'b2',
-                    title: 'My second book',
+                    title: 'My Second Book',
                     author: 'Shep Maddox',
                     numberOfPages: 6,
                     coverPage: 'https://edit.org/photos/img/blog/d3s-design-book-covers.jpg-840.jpg'
